@@ -3,7 +3,7 @@
 // https://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js
 // https://cdnjs.cloudflare.com/ajax/libs/plyr/3.3.21/plyr.min.js
 
-// Mythium Archive: https://archive.org/details/mythium/
+// Mythium Archive: https://archive.org/details/MusicaAdventistas/
 
 
 jQuery(function ($) {
@@ -25,18 +25,18 @@ jQuery(function ($) {
         // initialize playlist and controls
         var index = 0,
             playing = false,
-            mediaPath = 'https://archive.org/download/mythium/',
+            mediaPath = 'https://archive.org/download/MusicaAdventistas/',
             extension = '',
             tracks = [{
                 "track": 1,
                 "name": "All This Is - Joe L.'s Studio",
                 "duration": "2:46",
-                "file": "JLS_ATI"
+                "file": "AQD"
             }, {
                 "track": 2,
                 "name": "The Forsaken - Broadwing Studio (Final Mix)",
                 "duration": "8:30",
-                "file": "BS_TF"
+                "file": "AlClamorFinal"
             }, {
                 "track": 3,
                 "name": "All The King's Men - Broadwing Studio (Final Mix)",
