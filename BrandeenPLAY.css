@@ -10,8 +10,8 @@
 html,body {
 -webkit-font-smoothing:antialiased;
 -webkit-text-size-adjust:100%;
-background-color:#0665a2;
-color:#fff;
+background-color:#f0eeee;
+color:#000000;
 font-size:1.05rem;
 font-family:"Oxygen", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight:300;
@@ -40,10 +40,10 @@ box-sizing:border-box;
 /* Typography / Links
 ================================================== */
 
-p { color:#fff; display:block; font-size:.9rem; font-weight:400; margin:0 0 2px; }
+p { color:#2f4491; display:block; font-size:.9rem; font-weight:400; margin:0 0 2px; }
 
-a,a:visited { color:#8cc3e6; outline:0; text-decoration:underline; }
-a:hover,a:focus { color:#bbdef5; }
+a,a:visited { color:#2f4491; outline:0; text-decoration:underline; }
+a:hover,a:focus { color:#2f4491; }
 p a,p a:visited { line-height:inherit; }
 
 
@@ -111,7 +111,7 @@ padding:21px 0;
 }
 
 #plList li:hover {
-background-color:rgba(0,0,0,.1);
+background-color:rgba(255,195,0,1.00);
 }
 
 .plItem {
@@ -142,14 +142,14 @@ top:0;
 
 .plSel,
 .plSel:hover {
-background-color:rgba(0,0,0,.1);
+background-color:rgba(47,68,145,1.00);
 color:#fff;
 cursor:default !important;
 }
 
 #tracks a {
 border-radius:3px;
-color:#fff;
+color:#2f4491;
 cursor:pointer;
 display:inline-block;
 font-size:2rem;
@@ -167,8 +167,8 @@ margin-left:0;
 
 #tracks a:hover,
 #tracks a:active {
-background-color:rgba(0,0,0,.1);
-color:#fff;
+background-color:rgba(255,195,0,1.00);
+color:#2f4491;
 }
 
 #tracks a::-moz-focus-inner {
@@ -183,7 +183,7 @@ padding:0;
 .plyr--audio .plyr__controls {
 background-color:transparent;
 border:none;
-color:#fff;
+color:#2f4491;
 padding:20px 20px 20px 13px;
 width:100%;
 }
@@ -191,17 +191,17 @@ width:100%;
 .plyr--audio .plyr__controls button.tab-focus:focus,
 .plyr--audio .plyr__controls button:hover,
 .plyr__play-large {
-background:rgba(0,0,0,.1);
+background:rgba(255,195,0,1.00);
 }
 
 .plyr__progress--played,
 .plyr__volume--display {
-color:rgba(0,0,0,.1);
+color:rgba(255,195,0,1.00);
 }
 
 .plyr--audio .plyr__progress--buffer,
 .plyr--audio .plyr__volume--display {
-background:rgba(0,0,0,.1);
+background:rgba(255,195,0,1.00);
 }
 
 .plyr--audio .plyr__progress--buffer {
